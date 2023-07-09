@@ -1,0 +1,79 @@
+/*==================================
+
+Template Name: New Year New Me
+Author: Tanvir
+Author URI: 
+Version: 1.0
+Description: An awesome personal template.
+Support: tanvirfsd1@gmail.com
+
+==================================*/
+
+/*==================================
+
+CSS INDEX
+---------
+1. Common CSS
+2. Header Section
+
+==================================*/
+
+/*==================================
+
+1. Common CSS
+
+==================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;0,700;0,800;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*==================================
+
+2. Header Section
+
+==================================*/
+
+header{
+    background-image: url('../images/banner/banner3.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 300px 230px 300px 230px;
+}
+
+.header-column{
+    width: 50%;
+    text-align: right;
+}
+
+.header-title{
+    color: #FFF;
+    font-size: 65px;
+}
+
+.header-description{
+    color: #FFF;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.btn{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+    display: inline-block;
+    margin-top: 32px;
+}
