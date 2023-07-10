@@ -167,3 +167,25 @@ ul li:before {
     line-height: 40px;
     margin-top: 10px;
 }
+
+/*==================================
+
+6. Motive Section 
+
+==================================*/
+
+.motive{
+    margin: 130px 0;
+    background-image: url('../images/gradient1.png') , url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 60px 64px;
+    color: white;
+    font-size: 24px;
+    text-align: start;
+}
+
+.motive h1{
+    width: 50%;
+}
