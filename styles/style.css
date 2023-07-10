@@ -52,7 +52,7 @@ header{
 .header-container{
     display: flex;
     flex-direction: row-reverse;
-    padding: 300px 230px 300px 230px;
+    padding: 130px 200px;
     gap: 200px;
 }
 
@@ -63,7 +63,7 @@ header{
 
 .header-title{
     color: #FFF;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 .header-description{
@@ -214,7 +214,7 @@ footer{
 }
 
 .footer-description{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
 }
 
