@@ -18,6 +18,8 @@ CSS INDEX
 3. Main Section
 4. Previous History Section
 5. My Plans Section
+6. Motive Section 
+7. Footer Section 
 
 ==================================*/
 
@@ -188,4 +190,45 @@ ul li:before {
 
 .motive h1{
     width: 50%;
+}
+
+/*==================================
+
+7. Footer Section 
+
+==================================*/
+
+footer{
+    background-color: #151414;
+    display: flex;
+    color: #FFF;
+}
+
+.footer-column{
+    width: 50%;
+    margin: 130px 230px;
+}
+
+.footer-column h1{
+    font-size: 45px;
+}
+
+.footer-description{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.footer-column p{
+    margin: 10px 0;   
+}
+
+.social-links img{
+    margin: 20px 20px 0 0;
+}
+
+input[type='email']{
+    padding: 20px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 30px;
 }
