@@ -15,6 +15,8 @@ CSS INDEX
 ---------
 1. Common CSS
 2. Header Section
+3. Main Section
+4. Previous History Section
 
 ==================================*/
 
@@ -48,11 +50,12 @@ header{
     display: flex;
     flex-direction: row-reverse;
     padding: 300px 230px 300px 230px;
+    gap: 200px;
 }
 
 .header-column{
     width: 50%;
-    text-align: right;
+    text-align: right; 
 }
 
 .header-title{
@@ -76,4 +79,58 @@ header{
     padding: 20px 25px;
     display: inline-block;
     margin-top: 32px;
+}
+
+
+/*==================================
+
+3. Main Section
+
+==================================*/
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/*==================================
+
+4. Previous History Section
+
+==================================*/
+
+.previous-history{
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    gap: 130px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+ul li{
+    font-size: 20px;
+    line-height: 36px;
+}  
+
+ul li:before {
+    content: '✓';
+    padding-right: 10px;
+    color: green;
+    font-size: 30px;
+}
+
+.previous-history h1{
+    color: #151414;
+    font-size: 45px;
+}
+
+.previous-history p{
+    color:  #444343;
+    font-size: 20px;
+    margin-top: 24px;
+    line-height: 26px;
 }
